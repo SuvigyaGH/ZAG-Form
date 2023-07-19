@@ -1,22 +1,17 @@
 import React, { useState } from 'react';
 import styles from './Form.module.scss';
-import Spin from '../../../public/assets/spin.svg';
-import Upload from '../../../public/assets/upload.png';
 import Email from '../../../public/assets/email.png';
-import Check from '../../../public/assets/email.png';
-import EmailIcon from '../EmailIcon';
 import UploadIcon from '../UploadIcon';
 import Image from 'next/image';
 import SuccessModal from '../SuccessModal/SuccessModal';
 
-// SubmitForm component
 const SubmitForm = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [fileData, setFileData] = useState(null);
   const [isValidating, setIsValidating] = useState(false);
   const [submitDisabled, setSubmitDisabled] = useState(true);
-  const [showSuccessModal, setShowSuccessModal] = useState(false); // State to control the visibility of the success modal
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
 
   const handleFullNameChange = (e) => {
     setFullName(e.target.value);
@@ -43,8 +38,6 @@ const SubmitForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform submit action here
-    // Show success modal with appropriate message
     setShowSuccessModal(true);
   };
 
@@ -63,7 +56,6 @@ const SubmitForm = () => {
       <div className={styles.formGroup}>
         <h2 className={styles.label}>Full Name</h2>
         <div className={styles.inputContainer}>
-          {/* <EmailIcon className={styles.icon} /> */}
           <input
             type="text"
             placeholder="Full Name"
