@@ -1,3 +1,11 @@
+To run locally, clone the repository or download ZIP file. Add the necessary dependenices using npm install. Run locally using 'npm run dev'.
+
+![image](https://github.com/SuvigyaGH/ZAG-Form/assets/60514660/460714d5-0f7f-434f-b29e-50308d75fb87)![image](https://github.com/SuvigyaGH/ZAG-Form/assets/60514660/8dec55bd-1ba9-47f5-9664-cd240a794cf5)![image](https://github.com/SuvigyaGH/ZAG-Form/assets/60514660/78afbde2-0193-43cc-8f2b-020c79570264)
+How it looks: 👆🏻
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
