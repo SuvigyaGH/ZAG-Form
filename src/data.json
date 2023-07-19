@@ -1,0 +1,19 @@
+{
+    "user": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "age": 25,
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001"
+      }
+    },
+    "preferences": {
+      "language": "English",
+      "notifications": true,
+      "theme": "dark"
+    }
+  }
+  

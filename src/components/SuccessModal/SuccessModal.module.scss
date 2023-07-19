@@ -1,0 +1,82 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .successModal {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 400px;
+  
+      .iconContainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+  
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+  
+      .successHeading {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 10px;
+      }
+  
+      .successText {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #000;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        text-align: center;
+        font-weight: 500;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+      }
+  
+      .buttonsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        button {
+          border: none;
+          padding: 14px 20px;
+          border-radius: 30px;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 0 10px;
+          width: 150px;
+          width: 94%;
+        }
+  
+        .goToEntriesButton {
+          background-color: #007bff;
+          color: #fff;
+          margin-bottom: 1rem;
+        }
+  
+        .cancelButton {
+          background-color: #c3e2fa;
+          color: #007bff;
+        }
+      }
+    }
+  }
+  
+  /* Add any additional styles as needed for your modal */
+  
