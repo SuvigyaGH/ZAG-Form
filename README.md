@@ -1,4 +1,4 @@
-To run locally, clone the repository or download ZIP file. Add the necessary dependenices using npm install. Run locally using 'npm run dev'.
+Run locally by cloning the repository or downloading ZIP file. Add the necessary dependenices using npm install. Run locally using 'npm run dev'.
 
 ![image](https://github.com/SuvigyaGH/ZAG-Form/assets/60514660/8dec55bd-1ba9-47f5-9664-cd240a794cf5)
 
